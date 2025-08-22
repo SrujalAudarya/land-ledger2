@@ -1,0 +1,22 @@
+/* App-specific styles for Land Ledger */
+.land-ledger-gradient {
+  background: linear-gradient(135deg, oklch(0.15 0 0) 0%, oklch(0.3 0 0) 100%);
+}
+
+.satellite-map-container {
+  background: radial-gradient(circle at center, oklch(0.98 0 0) 0%, oklch(0.95 0 0) 100%);
+}
+
+.property-card-hover {
+  transition: all 0.3s ease;
+}
+
+.property-card-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+/* Additional app-specific styles */
+.app-container {
+  font-family: "Work Sans", system-ui, -apple-system, sans-serif;
+}
